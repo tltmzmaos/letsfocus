@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19G73" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Days" representedClassName="Days" syncable="YES" codeGenerationType="class">
+        <attribute name="dayDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="dayId" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="Rounds" representedClassName="Rounds" syncable="YES" codeGenerationType="class">
+        <attribute name="roundDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="roundId" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="Tasks" representedClassName="Tasks" syncable="YES" codeGenerationType="class">
+        <attribute name="dateAdded" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="desc" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TimeSetting" representedClassName="TimeSetting" syncable="YES" codeGenerationType="class">
+        <attribute name="longBreak" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="newDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="shortBreak" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="studyTime" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="Rounds" positionX="-63" positionY="27" width="128" height="73"/>
+        <element name="Tasks" positionX="-63" positionY="-18" width="128" height="103"/>
+        <element name="TimeSetting" positionX="-63" positionY="9" width="128" height="103"/>
+        <element name="Days" positionX="-63" positionY="27" width="128" height="73"/>
+    </elements>
+</model>
